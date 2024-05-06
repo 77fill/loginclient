@@ -1,3 +1,3 @@
 enum LoginStatus {
-  IDLE, FAILED, SUCCESS
+  IDLE, FAILED, VALID, SUCCESS
 }

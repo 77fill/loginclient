@@ -7,7 +7,7 @@ class Model {
   private LoginStatus loginStatus = LoginStatus.IDLE;
   
   public void emptyLoginCredentials() {loginCredentials = Optional.empty();}
-  public boolean isNotLoggedIn() { return List.of(LoginStatus.IDLE, LoginStatus.FAILED).contains(loginStatus);}
+  public boolean isInvalid() { return List.of(LoginStatus.IDLE, LoginStatus.FAILED).contains(loginStatus);}
   
   public Optional<LoginCredentials> getLoginCredentials() { return loginCredentials; }
   public void setLoginCredentials(Optional<LoginCredentials> loginCredentials) { this.loginCredentials = loginCredentials; }

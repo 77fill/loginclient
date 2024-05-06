@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
-  if(model.isNotLoggedIn())
+  if(model.isInvalid())
     showLoginDialog();
 }
 
@@ -22,4 +22,6 @@ void showLoginDialog() {
         "Password",
         "Enter",
         "Cancel"));
+        
+  controller.submit();
 }
