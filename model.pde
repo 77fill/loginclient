@@ -1,5 +1,6 @@
 import java.util.Optional;
 import uibooster.model.LoginCredentials;
+import java.util.List;
 
 class Model {
   private Optional<LoginCredentials> loginCredentials = Optional.empty();
