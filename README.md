@@ -1,6 +1,5 @@
 Simple Login Client
 ============
-============
 Description
 ============
 This is a school project with the following requirements:
@@ -15,3 +14,4 @@ This is a school project with the following requirements:
 Dependencies
 =============
 - UiBooster
+- Gson
